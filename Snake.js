@@ -9,7 +9,9 @@ let gameOver = false;
 
 function main(currentTime){
     if (gameOver){
-        window.location = './index.html';
+        if(confirm('You lost. Press Ok to reset')){
+            window.location = './index.html';
+        }
     }
         return
     }
