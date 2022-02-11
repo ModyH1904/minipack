@@ -9,7 +9,7 @@ let gameOver = false;
 
 function main(currentTime){
     if (gameOver){
-        window.location.reload()
+        window.location = './index.html';
     }
         return
     }
