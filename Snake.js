@@ -10,11 +10,11 @@ let gameOver = false;
 function main(currentTime){
     if (gameOver){
         if(confirm('You lost. Press Ok to reset')){
-            window.location = './index.html';
+            window.location = './snake.html';
         }
-    }
         return
     }
+
 
 
 
